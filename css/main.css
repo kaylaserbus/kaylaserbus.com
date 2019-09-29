@@ -1,0 +1,179 @@
+/*** BASE STYLES ***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #4d4d4d;
+    font-size: 24px;
+}
+
+header {
+    height: 10%;
+}
+
+/*** GRID ***/
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 45%;
+    float: left;
+}
+
+.third-width {
+    width: 30%;
+    display: inline-block;
+}
+
+/*** NAV ***/
+
+header div {
+    font-size: 24px;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    margin-top: 0px;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #0F71F2;
+}
+
+/*** HEADER ***/
+
+.left-center {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 72px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+
+section div span {
+    color: #0F71F2;
+}
+
+section img {
+    margin: 0 0 0 15%;
+}
+
+/*** PORTFOLIO ***/
+
+.centered-text {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 50px 0;
+    color: #0F71F2;
+}
+
+section div img {
+    height: 350px;
+    max-width: 1000px;
+}
+
+section div h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; 
+    font-size: 24px;
+    text-align: center; 
+}
+
+.full-width p {
+    font-size: 24px; 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+.half-width img {
+    display: inline-block;
+}
+
+/*** ABOUT ***/
+
+.full-width h1 {
+    clear: both;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 36px; 
+    text-align: center;
+    padding: 50px 0; 
+}
+
+.double-text {
+    position: relative;
+    top: -600px;
+    left: 350px;
+    font-size: 24px;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 0 50px 0 0px;
+}
+
+.centered-text-two {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 50px 0;
+    position: relative;
+    top: -600px;
+    color: #0F71F2;
+}
+.padding {
+    padding: 50px 0;
+}
+
+/*** CONTACT ***/
+
+.contact-center {
+    color: #0F71F2;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    position: relative;
+    top: -500px;
+}
+
+.third-width h4, .third-width a, .third-width img, .third-width p {
+    text-align: center;
+    position: relative;
+    top: -500px;
+
+}
+
+.third-width a {
+    margin: 0 0 0 180px;
+}
+
+.third-width a img {
+    position: relative;
+    top: 20px;
+    margin: 0 -20px;
+}
+
+.copyright-adjustment {
+    text-align: center;
+    position: relative;
+    top: -300px;
+}
